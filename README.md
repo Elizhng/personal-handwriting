@@ -27,21 +27,21 @@
 
 ### 方式 1：使用 `npx skills`（推荐）
 ```bash
-npx skills add niyexiangjianchangdaoxue-rgb/personal-handwriting
+npx skills add Elizhng/personal-handwriting
 ```
 
 ### 方式 2：手动克隆到对应 Agent 的 Skills 目录
 ```bash
 # Antigravity (项目级 / 全局)
-git clone https://github.com/niyexiangjianchangdaoxue-rgb/personal-handwriting.git .agents/skills/personal-handwriting
+git clone https://github.com/Elizhng/personal-handwriting.git .agents/skills/personal-handwriting
 # 或全局: ~/.gemini/config/skills/personal-handwriting
 
 # Claude Code (项目级 / 全局)
-git clone https://github.com/niyexiangjianchangdaoxue-rgb/personal-handwriting.git .claude/skills/personal-handwriting
+git clone https://github.com/Elizhng/personal-handwriting.git .claude/skills/personal-handwriting
 # 或全局: ~/.claude/skills/personal-handwriting
 
 # Codex
-git clone https://github.com/niyexiangjianchangdaoxue-rgb/personal-handwriting.git .agents/skills/personal-handwriting
+git clone https://github.com/Elizhng/personal-handwriting.git .agents/skills/personal-handwriting
 ```
 
 ---
