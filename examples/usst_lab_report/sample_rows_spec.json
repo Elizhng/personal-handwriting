@@ -1,0 +1,16 @@
+{
+  "description": "Row-ordered character list matching your handwritten photo. Use '□' or 'SKIP' to ignore crossed-out mistakes.",
+  "source_id": "SHEET_01",
+  "columns": [
+    {
+      "x_range": [0.0, 1.0],
+      "rows": [
+        "物理化学实验纯液体饱和蒸气压的测定",
+        "示例班张三李四第一组楼一二三四目的",
+        "掌握静态法不同温度下操作原理与方法",
+        "0123456789.,():-+=/%",
+        "ABCDP RTlgHΔ℃"
+      ]
+    }
+  ]
+}

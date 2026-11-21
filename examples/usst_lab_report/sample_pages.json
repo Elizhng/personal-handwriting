@@ -1,0 +1,67 @@
+{
+  "pages": [
+    {
+      "page_number": 1,
+      "is_cover": true,
+      "template": "templates/page_1_cover.png",
+      "blocks": [
+        {
+          "type": "cover_fields",
+          "fields": [
+            { "field_key": "course_name", "text": "物理化学实验", "size": 38, "align": "center" },
+            { "field_key": "experiment_name", "text": "纯液体饱和蒸气压的测定", "size": 36, "align": "center" },
+            { "x_start": 487, "x_end": 657, "y_underline": 969, "text": "示例班", "size": 30, "align": "center" },
+            { "x_start": 805, "x_end": 1097, "y_underline": 969, "text": "张三", "size": 32, "align": "center" },
+            { "x_start": 1253, "x_end": 1374, "y_underline": 969, "text": "20260001", "size": 24, "align": "center" },
+            { "x_start": 482, "x_end": 806, "y_underline": 1069, "text": "第一组", "size": 30, "align": "center" },
+            { "x_start": 1035, "x_end": 1373, "y_underline": 1069, "text": "李四", "size": 32, "align": "center" },
+            { "x_start": 483, "x_end": 806, "y_underline": 1169, "text": "2026.03.15", "size": 28, "align": "center" },
+            { "x_start": 1035, "x_end": 1372, "y_underline": 1169, "text": "实验楼A301", "size": 28, "align": "center" }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "template": "templates/page_2_content.png",
+      "margin_left_ratio": 0.132,
+      "margin_right_ratio": 0.862,
+      "y_start_ratio": 0.112,
+      "bot_limit_ratio": 0.935,
+      "line_h_ratio": 1.48,
+      "blocks": [
+        { "type": "heading", "text": "一、实验目的" },
+        { "type": "paragraph", "indent": 2, "text": "1. 掌握静态法测定不同温度下纯液体饱和蒸气压的实验原理与操作方法。" },
+        { "type": "paragraph", "indent": 2, "text": "2. 学会用克劳修斯-克拉佩龙方程求算液体的平均摩尔气化焓。" },
+        { "type": "heading", "text": "二、实验原理" },
+        { "type": "paragraph", "indent": 2, "text": "在恒定温度下，当纯液体与其蒸气达到气液两相平衡时，蒸气所具有的压力称为饱和蒸气压P。其随温度T的变化关系服从克劳修斯-克拉佩龙方程：" },
+        {
+          "type": "equation_inline_frac",
+          "prefix": "lg P = -",
+          "num": "ΔH",
+          "den": "2.303RT",
+          "suffix": " + C"
+        },
+        { "type": "heading", "text": "三、仪器与试剂" },
+        {
+          "type": "two_col_list",
+          "rows": [
+            ["1. 恒温水浴", "2. 数字真空测压仪"],
+            ["3. 等压计", "4. 蒸馏水"]
+          ]
+        },
+        { "type": "heading", "text": "四、示例数据记录表" },
+        {
+          "type": "table",
+          "headers": ["序号", "温度(℃)", "P(kPa)", "备注"],
+          "col_ratios": [0.16, 0.26, 0.30, 0.28],
+          "data_rows": [
+            ["1", "25.0", "3.17", "平衡良好"],
+            ["2", "30.0", "4.24", "平衡良好"],
+            ["3", "35.0", "5.62", "平衡良好"]
+          ]
+        }
+      ]
+    }
+  ]
+}

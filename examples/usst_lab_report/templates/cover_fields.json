@@ -1,0 +1,94 @@
+{
+  "course_name": {
+    "y_underline": 764,
+    "x_start": 479,
+    "x_end": 1375,
+    "label_end": 460,
+    "spans": [
+      [
+        479,
+        1375
+      ]
+    ]
+  },
+  "experiment_name": {
+    "y_underline": 867,
+    "x_start": 479,
+    "x_end": 1375,
+    "label_end": 461,
+    "spans": [
+      [
+        479,
+        1375
+      ]
+    ]
+  },
+  "class_name_student_id": {
+    "y_underline": 969,
+    "x_start": 487,
+    "x_end": 1374,
+    "label_end": 467,
+    "spans": [
+      [
+        487,
+        657
+      ],
+      [
+        805,
+        1097
+      ],
+      [
+        1253,
+        1374
+      ]
+    ]
+  },
+  "group_partner": {
+    "y_underline": 1069,
+    "x_start": 482,
+    "x_end": 1373,
+    "label_end": 461,
+    "spans": [
+      [
+        482,
+        806
+      ],
+      [
+        1035,
+        1373
+      ]
+    ]
+  },
+  "date_location": {
+    "y_underline": 1169,
+    "x_start": 483,
+    "x_end": 1372,
+    "label_end": 463,
+    "spans": [
+      [
+        483,
+        806
+      ],
+      [
+        1035,
+        1372
+      ]
+    ]
+  },
+  "score_teacher": {
+    "y_underline": 1269,
+    "x_start": 483,
+    "x_end": 1371,
+    "label_end": 466,
+    "spans": [
+      [
+        483,
+        806
+      ],
+      [
+        1035,
+        1371
+      ]
+    ]
+  }
+}
